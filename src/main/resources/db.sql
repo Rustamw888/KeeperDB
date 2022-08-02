@@ -24,7 +24,8 @@ create table spend
         constraint spend_account_id_fk
             references account,
     spend_category varchar,
-    spend integer
+    spend integer,
+    description varchar
 );
 
 alter table spend owner to postgres;

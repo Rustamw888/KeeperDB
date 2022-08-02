@@ -4,7 +4,10 @@ import java.util.Arrays;
 
 public enum Category {
 
-    SHOP("Магазины"), FUEL("АЗС"), BAR("Бары");
+    SHOP("Магазины"),
+    FLOWER("Цветы"),
+    FUEL("АЗС"),
+    BAR("Бары");
 
     Category(String description) {
         this.description = description;
